@@ -8,7 +8,7 @@ export default defineConfig({
     },
     projects: [
         {
-            name: 'API Tests',
+            name: 'API',
             use: {},
             testMatch: /.*\.api\.spec\.ts/,
         },
