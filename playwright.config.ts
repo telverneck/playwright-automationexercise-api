@@ -10,6 +10,7 @@ export default defineConfig({
         {
             name: 'API Tests',
             use: {},
+            testMatch: /.*\.api\.spec\.ts/,
         },
     ],
 });
